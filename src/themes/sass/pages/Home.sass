@@ -1,0 +1,19 @@
+@import '../variables'
+
+#_home
+  .result-card,
+  .filter-card  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+    transition: 0.3s
+    &.filter-card:hover
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+    .card-text
+      margin-bottom: 0  
+
+  .result-card
+    &.favourite-team
+      background-color: $primary
+      color: $white !important
+    .winner
+      p
+        font-weight: bold !important    
